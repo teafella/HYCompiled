@@ -55,6 +55,10 @@ cd $DIR
 
 	#sudo raspi-config --expand-rootfs
 
+	echo "CHECKING FOR HYPNO UPDATES!"
+	echo "---------------------------"
+	git pull
+
 	# sudo systemctl enable getty@ttyGS0.service #for mirroring the terminal to upstream serial device
 
 	# while true 
