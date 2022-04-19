@@ -45,6 +45,6 @@ void main( void ) {
 		}
 	}
 
-	gl_FragColor = vec4( frame_color);
+	gl_FragColor = vec4( frame_color.xyz, 1.0);
 
 }
